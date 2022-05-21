@@ -1,9 +1,0 @@
-adaptation-surya (0.0.0+git20211216160957.56874e2.bookworm) bookworm; urgency=medium
-
-  * Initial adaptation package for miatoll
-  * Add pulseaudio configuration
-  * sources.list.d: miatoll.list: fix repo url
-  * Add linux-bootimage-miatoll to depends
-
- -- Marcel Alexandru Nitan <nitan.marcel@protonmail.com>  Thu, 16 Dec 2021 18:09:57 +0200
-

@@ -1,5 +1,5 @@
+/etc
+/usr
 /etc/apt/sources.list.d
 /etc/apt/preferences.d
-/etc/udev/rules.d
 /etc/package-sideload-create.d
-/usr/lib/adaptation-surya/sources

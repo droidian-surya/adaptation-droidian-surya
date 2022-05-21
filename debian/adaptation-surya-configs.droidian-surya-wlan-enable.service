@@ -1,0 +1,14 @@
+[Unit]
+Description=Enables WLAN
+Requires=lxc@android.service
+After=lxc@android.service
+ConditionPathExists=/dev/wlan
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/droidian-enable-wlan-and-ipa.sh
+
+[Install]
+# FIXME: multi-user.target is not the right target for this, but
+# we're bound on the lxc container's target.
+WantedBy=multi-user.target

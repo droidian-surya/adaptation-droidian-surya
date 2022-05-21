@@ -4,5 +4,4 @@
 	dh $@
 
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-surya-configs --name=enable-ipa enable-ipa.service --no-start
-	dh_installsystemd -padaptation-surya-configs --name=enable-wlan enable-wlan.service --no-start
+	dh_installsystemd --name=droidian-surya-wlan-enable --no-start

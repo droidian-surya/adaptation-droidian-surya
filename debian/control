@@ -4,20 +4,17 @@ Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll
-Vcs-Git: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll.git
+Vcs-Browser: https://github.com/droidian-devices/adaptation-surya
+Vcs-Git: https://github.com/droidian-devices/adaptation-surya.git
 
 Package: adaptation-surya
-Architecture: all
+Architecture: arm64
 Depends: ${misc:Depends},
-         linux-bootimage-xiaomi-surya,
          adaptation-hybris-api29-phone,
-         adaptation-surya,
-Description: adapatation-surya- meta
- Surya api29 adaptation metapackage
+         adaptation-surya-configs (= ${binary:Version}),
+Description: Xiaomi POCO X3 NFC - metapackage
 
 Package: adaptation-surya-configs
-Architecture: all
+Architecture: arm64
 Depends: ${misc:Depends},
-         adaptation-surya (= ${binary:Version}),
-Description: Surya's specific adaptation configs
+Description: Xiaomi POCO X3 NFC - adaptation configurations
