@@ -1,0 +1,23 @@
+Source: adaptation-surya
+Maintainer: ungeskriptet
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll
+Vcs-Git: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll.git
+
+Package: adaptation-surya
+Architecture: all
+Depends: ${misc:Depends},
+         linux-bootimage-xiaomi-surya,
+         adaptation-hybris-api29-phone,
+         adaptation-surya,
+Description: adapatation-surya- meta
+ Surya api29 adaptation metapackage
+
+Package: adaptation-surya-configs
+Architecture: all
+Depends: ${misc:Depends},
+         adaptation-surya (= ${binary:Version}),
+Description: Surya's specific adaptation configs

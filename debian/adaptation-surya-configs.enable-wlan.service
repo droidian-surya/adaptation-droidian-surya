@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable wlan at boot
+Requires=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStartPre=/bin/sleep 5
+ExecStart=/bin/sh -c 'echo ON > /dev/wlan'
+
+[Install]
+WantedBy=multi-user.target
