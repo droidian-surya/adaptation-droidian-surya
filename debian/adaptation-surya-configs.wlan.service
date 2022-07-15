@@ -6,7 +6,7 @@ ConditionPathExists=/dev/wlan
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/droidian-enable-wlan-and-ipa.sh
+ExecStart=/usr/bin/wlan.sh
 
 [Install]
 WantedBy=multi-user.target
