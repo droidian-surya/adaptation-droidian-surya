@@ -1,5 +1,5 @@
 Source: adaptation-droidian-surya
-Maintainer: FakeShell
+Maintainer: Bardia Moshiri
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
@@ -7,14 +7,15 @@ Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/droidian-surya/adaptation-droidian-surya
 Vcs-Git: https://github.com/droidian-surya/adaptation-droidian-surya.git
 
-Package: adaptation-surya
-Architecture: arm64
+Package: adaptation-droidian-surya
+Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
-         adaptation-surya-configs (= ${binary:Version}),
-Description: Xiaomi POCO X3 NFC - metapackage
+         adaptation-surya-configs,
+Description: adaptation-surya-meta
+ surya api29 adaptation metapackage
 
 Package: adaptation-surya-configs
-Architecture: arm64
+Architecture: all
 Depends: ${misc:Depends},
-Description: Xiaomi POCO X3 NFC - adaptation configurations
+Description: surya's adaptation configs

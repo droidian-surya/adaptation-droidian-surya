@@ -3,11 +3,11 @@ Upstream-Name: adaptation-droidian-surya
 Source: https://github.com/droidian-surya/adaptation-droidian-surya.git
 
 Files: *
-Copyright: FakeShell
+Copyright: Bardia Moshiri
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: FakeShell
+Copyright: Bardia Moshiri
 License: BSD-3-clause
 
 License: BSD-3-clause

@@ -4,4 +4,4 @@
 	dh $@
 
 override_dh_installsystemd:
-	dh_installsystemd --name=droidian-surya-wlan-enable --no-start
+	dh_installsystemd -padaptation-surya-configs --name=wlan wlan.service --no-start
