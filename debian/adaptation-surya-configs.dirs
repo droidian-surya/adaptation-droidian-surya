@@ -1,5 +1,7 @@
-/etc
-/usr
-/etc/apt/sources.list.d
-/etc/apt/preferences.d
-/etc/package-sideload-create.d
+/etc/phosh
+/etc/pulse
+/etc/systemd/system/phosh.service.d
+/etc/systemd/user/pulseaudio.serivce.d
+/etc/udev/rules.d
+/usr/bin
+/usr/lib/droid-vendor/overlay/etc

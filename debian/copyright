@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adaptation-surya
-Source: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll
+Upstream-Name: adaptation-droidian-surya
+Source: https://github.com/droidian-surya/adaptation-droidian-surya.git
 
 Files: *
-Copyright: ungeskriptet
+Copyright: FakeShell
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: ungeskriptet
+Copyright: FakeShell
 License: BSD-3-clause
 
 License: BSD-3-clause

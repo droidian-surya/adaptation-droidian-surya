@@ -1,11 +1,11 @@
-Source: adaptation-surya
-Maintainer: ungeskriptet
+Source: adaptation-droidian-surya
+Maintainer: FakeShell
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian-devices/adaptation-surya
-Vcs-Git: https://github.com/droidian-devices/adaptation-surya.git
+Vcs-Browser: https://github.com/droidian-surya/adaptation-droidian-surya
+Vcs-Git: https://github.com/droidian-surya/adaptation-droidian-surya.git
 
 Package: adaptation-surya
 Architecture: arm64
