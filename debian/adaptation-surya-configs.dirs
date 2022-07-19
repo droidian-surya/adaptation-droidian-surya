@@ -5,3 +5,4 @@
 /etc/udev/rules.d
 /usr/bin
 /usr/lib/droid-vendor/overlay/etc
+/usr/share/keyrings
