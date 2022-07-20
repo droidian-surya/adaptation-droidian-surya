@@ -1,5 +1,5 @@
-adaptation-droidian-surya (0.0.0+git20220715092736.88cb61b.main) main; urgency=medium
+adaptation-droidian-surya (0.0.0+git20220719092736.88cb61b.main) main; urgency=medium
 
-  * add surya repo
+  * add surya repo and build fixes
 
  -- fakeshell <fakeshell@bardia.tech>  Fri, 19 Jul 2022 17:02:36 +0330
