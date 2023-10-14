@@ -1,5 +1,28 @@
-adaptation-droidian-surya (0.0.0+git20220719092736.88cb61b.main) main; urgency=medium
+adaptation-droidian-surya (0.0.0+git20231013155137.e724ee4.release) bookworm; urgency=medium
 
-  * add surya repo and build fixes
+  [ Bardia Moshiri ]
+  * add pulseaudio variable
+  * add phosh scaling
+  * fix files and stuff
+  * add changelog
+  * build fixes
+  * rename files
+  * remove script which has been added in droidian quircks package
+  * fix mobile data and sms and calls
+  * add surya repo
+  * add surya repo build fixes
+  * update changelog
+  * add scale to fit scripts and change phosh scaling as well as a typo
+  * Merge pull request #1 from sergiorgb/patch-1
+  * drop phoc scripts
 
- -- fakeshell <fakeshell@bardia.tech>  Fri, 19 Jul 2022 17:02:36 +0330
+  [ Sergio Cuervo ]
+  * Update phoc.ini
+  * Flashlight support
+
+  [ David Wronek ]
+  * Initial commit
+  * Fix build
+
+ -- Bardia Moshiri <fakeshell@bardia.tech>  Fri, 13 Oct 2023 15:51:37 -0400
+

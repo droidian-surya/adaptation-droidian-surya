@@ -1,1 +1,1 @@
-deb [arch=arm64 signed-by=/usr/share/keyrings/surya.gpg] http://mirror.bardia.tech/surya bookworm main
+deb [arch=arm64 signed-by=/usr/share/keyrings/surya.gpg] http://repo.bardia.tech/ trixie main
